@@ -1,3 +1,2 @@
 # efs
-my first project
-baru belajar menggunakan git
+Saya baru belajar menggunakan git, saya mau menulis kode disini
