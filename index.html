@@ -1,5 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>DS | Teknologi & Investasi</title>
+  <link href="img/favicon.png" type="image/png" rel="icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Efek untuk masuk -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+$(document).ready(function(){
+	$("h5").hide();
+	$("button").hide();
+    $("#h1").mouseenter(function(){
+		$("h1").hide();
+		$("p").hide();
+		$("h5").fadeIn(8000);
+		$("button").fadeIn("slow");
+    });
+});
+</script>
+</head>
+
 <body>
-Test percobaan
+
+  <!-- Start your project here-->
+  <div style="height: 80vh">
+    <div class="flex-center flex-column">
+
+      <h1 id="h1" class="text-hide animated fadeIn mb-4" style="background-image: url('img/dasrilsalimlogo.png'); width: 286px; height: 240px;">Dasril Salim</h1>
+      <h5>Terimakasih telah mendukung kami, kami bangga berjuang bersama anda.</h5>
+
+      <p class="animated fadeIn text-muted">Dasril Salim - Technology and Investment</p><br>
+	  <button type="button" class="btn btn-outline-warning">LOGIN</button>
+    </div>
+  </div>
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
+
 </html>
